@@ -1,0 +1,33 @@
+
+
+.nav-links{
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-links{
+    display: flex;   
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    clip-path: circle(100px at -30% -30%);
+    -webkit-clip-path: circle(100px at -30% -30%);
+    transition: all 1s ease-out;
+
+      
+  }
+  .nav-links.open{
+    clip-path: circle(1000px at -10% -10%);
+    -webkit-clip-path: circle(1000px at -10% -10%);
+
+  }
+  .hideMe{
+      display: none;
+  }
+  .hamburger{
+    position:absolute;
+    z-index: 2;
+  }
+}
