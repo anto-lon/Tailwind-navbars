@@ -1,8 +1,3 @@
-nav{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
 @media only screen and (max-width: 768px) {
   .nav-links{
     display: flex;   
@@ -19,6 +14,30 @@ nav{
   .nav-links.open{
     clip-path: polygon(0 0, 100% 0%, 100% 90%, 51% 100%, 0 90%);
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 51% 100%, 0 90%);
+  }
+  .nav-links li{
+    opacity: 0;
+  }
+  .nav-links li a{
+    font-size: 20px;
+  }
+  .nav-links li:nth-child(1){
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links li:nth-child(2){
+    transition: all 0.5s ease 0.3s;
+  }
+  .nav-links li:nth-child(3){
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links li:nth-child(4){
+    transition: all 0.5s ease 0.5s;
+  }
+  .nav-links li:nth-child(5){
+    transition: all 0.5s ease 0.6s;
+  }
+  li.fade{
+    opacity: 1;
   }
   .hamburger{
     position:absolute;
