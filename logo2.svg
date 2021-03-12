@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="500" height="500" style="enable-background:new 0 0 500 500;" xml:space="preserve"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+
+
+<g class="currentLayer" style=""><title>Layer 1</title><path style="fill-rule:evenodd;clip-rule:evenodd;" d="M244.8453607559204,25.03563924407959 L45.72736075592041,425.1546392440796 h325.334 l-21.112,-44.039 H111.97636075592041 L266.9183607559204,68.70763924407959 L244.8453607559204,25.03563924407959 z" id="svg_1" class="" fill="#ffffff" fill-opacity="1"/><path style="fill-rule:evenodd;clip-rule:evenodd;" d="M281.42136075592043,97.3286392440796 L445.03436075592043,425.1546392440796 h-45.274 l-62.229,-126.02 H185.0343607559204 L205.83036075592042,255.1546392440796 h109.026 l-56.005,-112.782 L281.42136075592043,97.3286392440796 z" id="svg_2" class="" filter="" opacity="1" stroke="#ffffff" stroke-opacity="1" fill="#ffffff" fill-opacity="1"/></g><defs><filter id="f002" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:label="Smart jelly" inkscape:menu="Bevels" inkscape:menu-tooltip="Same as Matte jelly but with more controls" height="1" width="1" y="0" x="0" color-interpolation-filters="sRGB">
+            <feBlend result="result3" mode="normal" in2="result91"/>
+            <feComposite result="result4" operator="arithmetic" k2="1" in2="result3"/>
+            <feColorMatrix id="feColorMatrix3006" in="result4" result="result0" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.85 0 "/>
+            <feGaussianBlur stdDeviation="7" in="SourceAlpha"/>
+            <feSpecularLighting result="result1" specularExponent="25" specularConstant="1" surfaceScale="5">
+                <feDistantLight azimuth="225" elevation="60"/>
+            </feSpecularLighting>
+            <feComposite in2="result0" k1=".5" k2="1" operator="arithmetic" k3=".5"/>
+            <feComposite result="result2" in2="result0" operator="atop"/>
+            <feComposite operator="in" in2="SourceGraphic"/>
+        </filter></defs></svg>

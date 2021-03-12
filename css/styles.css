@@ -43,4 +43,19 @@
     position:absolute;
     z-index: 2;
   }
+  .hamburger div{
+    transition: all 0.3s ease;
+  }
+  .rotate .lineOne{
+  transform:rotate(-45deg) translate(-0px,7px);
+  margin-right: 8px;
+  }
+  .rotate .lineTwo{
+    display: none;
+  }
+  .rotate .lineThree{
+    width: 32px;
+    transform:rotate(45deg) translate(-0px,-6px);
+    margin-right: 8px;
+  }
 }

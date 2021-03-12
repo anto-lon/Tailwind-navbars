@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
-  <body class="font-mono pt-12">
+  <body class="font-sans pt-12">
     <nav class="flex h-12 bg-blue-400 fixed top-0 w-full shadow-md">
-      <ul class="nav-links  mx-auto bg-blue-400 text-white w-1/2 h-12 flex justify-evenly items-center tracking-wider">
+      <ul class="nav-links  mx-auto bg-blue-400 text-white w-1/2 h-12 flex justify-evenly items-center tracking-wider text-xl">
         <li><a href="#" class="uppercase">item</a></li>
         <li><a href="#" class="uppercase">item</a></li>
         <li class="hideMe">
@@ -30,10 +30,23 @@
 
 
       <!--Hamburger design-->
-      <div class="hamburger mt-1.5 mx-4 md:hidden cursor-pointer ">
-        <div class="w-8 h-1 mt-1.5 bg-white rounded-full"></div>
-        <div class="w-6 h-1 mt-1.5 bg-white rounded-full"></div>
-        <div class="w-4 h-1 mt-1.5 bg-white rounded-full"></div>
+      <div class="flex flex-row justify-center">
+        <div class="hamburger mt-1.5 mx-4 md:hidden cursor-pointer left-0">
+          <div class="w-8 h-1 mt-1.5 bg-white rounded-full lineOne"></div>
+          <div class="w-6 h-1 mt-1.5 bg-white rounded-full lineTwo"></div>
+          <div class="w-4 h-1 mt-1.5 bg-white rounded-full lineThree"></div>
+        </div>
+        <div class="absolute right-0  md:hidden text-white uppercase ">
+          <a href="#">
+          <svg class="w-10 h-10 m-1.5" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+              width="500px" height="500px" viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M250,19.881L50.882,420h325.334l-21.112-44.039H117.131L272.073,63.553
+              L250,19.881z"/>
+            <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M286.576,92.174L450.189,420h-45.274l-62.229-126.02H190.189L210.985,250
+              h109.026l-56.005-112.782L286.576,92.174z"/>
+          </svg>
+        </a>
+        </div>
       </div>
     </nav>
 
